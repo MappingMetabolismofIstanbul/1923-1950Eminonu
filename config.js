@@ -189,7 +189,7 @@ var config = {
                 //speed: 2, // make the flying slow
                 //curve: 0, // change the speed at which it zooms out
             },
-            mapAnimation: 'right',
+            mapAnimation: 'flyTo',
             rotateAnimation: true,
             callback: '',
             onChapterEnter: [],
@@ -216,7 +216,7 @@ var config = {
                 //speed: 2, // make the flying slow
                 //curve: 0, // change the speed at which it zooms out
             },
-            mapAnimation: 'right',
+            mapAnimation: 'flyTo',
             rotateAnimation: true,
             callback: '',
             onChapterEnter: [],
@@ -243,7 +243,7 @@ var config = {
                 //speed: 2, // make the flying slow
                 //curve: 0, // change the speed at which it zooms out
             },
-            mapAnimation: 'right',
+            mapAnimation: 'flyTo',
             rotateAnimation: true,
             callback: '',
             onChapterEnter: [],
