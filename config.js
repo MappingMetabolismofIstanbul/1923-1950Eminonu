@@ -226,7 +226,7 @@ var config = {
             id: '7',
             alignment: 'full',
             hidden: false,
-            title: '',
+            title: 'Eminönü Meydanının eski ve yeni hâlini karşılaştırmak için ortadaki çubuğu sola veya sağa kaydırın. / Move the slider left or right to compare the past and present of the Eminönü Square',
             image: '',
             description: '<iframe frameborder="0" class="juxtapose" width="100%" height="3508" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=aa65f302-6b83-11f0-bb24-0936e1cb08fb"></iframe>',
             location: {
