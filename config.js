@@ -222,20 +222,18 @@ var config = {
             onChapterEnter: [],
             onChapterExit: []
         },
-         {
+        {
             id: '7',
             alignment: 'full',
             hidden: false,
-            title: 'Eminönü Meydanının eski ve yeni hâlini karşılaştırmak için ortadaki çubuğu sola veya sağa kaydırın. / Move the slider left or right to compare the past and present of the Eminönü Square',
+            title: '',
             image: '',
-            description: '<iframe frameborder="0" class="juxtapose" width="100%" height="3508" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=aa65f302-6b83-11f0-bb24-0936e1cb08fb"></iframe>',
+            description: '<iframe frameborder="0" class="juxtapose" width="100%" height="484" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=bc85db74-6b88-11f0-bb24-0936e1cb08fb"></iframe>Eminönü Meydanının eski ve yeni hâlini karşılaştırmak için ortadaki çubuğu sola veya sağa kaydırın. / Move the slider left or right to compare the past and present of the Eminönü Square',
             location: {
                 center: [28.97131817837604,41.018050376587205],
                 zoom: 17,
                 pitch: 10,
                 bearing: 0,
-                speed: 1,
-                curve: 2
                 // flyTo additional controls-
                 // These options control the flight curve, making it move
                 // slowly and zoom out almost completely before starting
