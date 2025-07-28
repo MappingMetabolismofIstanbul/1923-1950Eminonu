@@ -224,7 +224,7 @@ var config = {
         },
          {
             id: '7',
-            alignment: 'fully',
+            alignment: 'full',
             hidden: false,
             title: '',
             image: '',
