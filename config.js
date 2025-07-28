@@ -228,7 +228,7 @@ var config = {
             hidden: false,
             title: '',
             image: '',
-            description: '<iframe frameborder="0" class="juxtapose" width="100%" height="3508" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=3c3e6a6e-6a32-11f0-bb24-0936e1cb08fb"></iframe>Eminönü Meydanının eski ve yeni hâlini karşılaştırmak için ortadaki çubuğu sola veya sağa kaydırın. / Move the slider left or right to compare the past and present of the Eminönü Square',
+            description: '<iframe frameborder="0" class="juxtapose" width="100%" height="3508" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=3c3e6a6e-6a32-11f0-bb24-0936e1cb08fb"></iframe>',
             location: {
                 center: [28.97131817837604,41.018050376587205],
                 zoom: 22,
