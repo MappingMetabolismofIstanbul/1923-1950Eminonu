@@ -1,3 +1,4 @@
+
 var config = {
     // style: 'mapbox://styles/mapbox/streets-v12',
     // leave commented to use Mapbox Standard Style
@@ -16,10 +17,10 @@ var config = {
     theme: 'light',
     use3dTerrain: false, //set true for enabling 3D maps.
     auto: false,
-    title: '1923 - 1950 yılları arasına İstanbul’da İmar ve Yıkım Süreci / Urban Development and Demolition Process in Istanbul between 1923 and 1950',
+    title: '1923 - 1950 yılları arasına İstanbul’da İmar ve Yıkım Süreci / Urban Production and Demolition Process in Istanbul between 1923 and 1950',
     subtitle: '',
     byline: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
-    footer: 'Source: source citations, etc. <br> Created using <a href="https://github.com/mapbox/storytelling" target="_blank">Mapbox Storytelling</a> template.',
+    footer: 'BAP_Mapping Metabolism of Istanbul_Interactive Mapping / MEF AAP_027',
     chapters: [
         {
             id: '1',
@@ -116,7 +117,7 @@ var config = {
             alignment: 'centered',
             hidden: false,
             title: '',
-            image: 'hhttps://i.ibb.co/6Rc4jVRC/2.png',
+            image: 'https://i.ibb.co/wF12ZSm2/7.png',
             description: '',
             location: {
                  center: [28.97131817837604,41.018050376587205],
@@ -151,7 +152,7 @@ var config = {
             location: {
                  center: [28.97131817837604,41.018050376587205],
                 zoom: 17,
-                pitch: 40,
+                pitch: 0,
                 bearing: 0,
                 speed: 1,
                 curve: 2
@@ -163,7 +164,7 @@ var config = {
                 //curve: 0, // change the speed at which it zooms out
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
@@ -176,7 +177,7 @@ var config = {
             image: 'https://i.ibb.co/0pP72T05/5.png',
             description: '',
             location: {
-                center: [28.97131817837604,41.018050376587205],
+                center: [28.970773581999932,41.017291864821374],
                 zoom: 19,
                 pitch: 10,
                 bearing: 0,
@@ -203,9 +204,9 @@ var config = {
             image: 'https://i.ibb.co/x0yy7yz/6.png',
             description: '',
             location: {
-                center: [28.97131817837604,41.018050376587205],
-                zoom: 19,
-                pitch: 10,
+                center: [28.970773581999932,41.017291864821374],
+                zoom: 18,
+                pitch: 0,
                 bearing: 0,
                 speed: 1,
                 curve: 2
@@ -231,7 +232,7 @@ var config = {
             description: '<iframe frameborder="0" class="juxtapose" width="100%" height="484" src="https://cdn.knightlab.com/libs/juxtapose/latest/embed/index.html?uid=bc85db74-6b88-11f0-bb24-0936e1cb08fb"></iframe>Eminönü Meydanının eski ve yeni hâlini karşılaştırmak için ortadaki çubuğu sola veya sağa kaydırın. / Move the slider left or right to compare the past and present of the Eminönü Square',
             location: {
                 center: [28.97131817837604,41.018050376587205],
-                zoom: 17,
+                zoom: 16,
                 pitch: 10,
                 bearing: 0,
                 // flyTo additional controls-
@@ -242,7 +243,7 @@ var config = {
                 //curve: 0, // change the speed at which it zooms out
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: true,
+            rotateAnimation: false,
             callback: '',
             onChapterEnter: [],
             onChapterExit: []
